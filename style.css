@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.container {
+  margin: 100px;
+  position: relative;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  padding: 0;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.coordinate-label {
+  width: 20px;
+  height: 20px;
+  border: 1px solid transparent;
+  text-align: center;
+  position: absolute;
+  font-size: 10px;
+  color: gray;
+}
+
+.label-top {
+  top: -15px;
+  left: 0;
+}
+
+.label-left {
+  top: 0;
+  left: -15px;
+  transform: rotate(-90deg);
+}
